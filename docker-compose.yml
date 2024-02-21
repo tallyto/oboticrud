@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: oboticrud@user
+      POSTGRES_PASSWORD: oboticrud@password
+      POSTGRES_DB: oboticrud_db
+    ports:
+      - "5432:5432"
