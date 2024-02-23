@@ -68,6 +68,9 @@ Abra o navegador e acesse `http://localhost:3000` (ou a porta configurada).
 - **PUT /api/inventory/:id**: Atualiza os detalhes do inventário com o ID especificado.
 - **DELETE /api/inventory/:id**: Exclui o inventário com o ID especificado.
 
+## Documentação do Swagger
+A documentação do Swagger está acessível em `http://localhost:3000/documentation`.
+
 ## Importação no Postman
 Você pode importar os endpoints facilmente utilizando o arquivo `oboticrud.postman_collection` na raiz do projeto.
 
