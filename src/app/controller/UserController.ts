@@ -1,8 +1,7 @@
 import { FastifyReply, FastifyRequest } from "fastify";
-import { User } from "../entities/User";
-import { AppDataSource } from "../database/postgres";
-import bcrypt from "bcrypt";
-
+import * as bcrypt from "bcrypt";
+import { User } from "../../entity/User";
+import { AppDataSource } from "../../data-source";
 
 export const login = async (req: FastifyRequest, res: FastifyReply) => {
     try {
