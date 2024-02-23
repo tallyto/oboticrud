@@ -1,0 +1,42 @@
+const productSchema =
+{
+    type: 'object',
+    required: [
+        'id',
+        'sku',
+        'name',
+        'brand',
+        'inventory',
+        'shortDescription',
+        'price',
+        'maxPrice',
+        'discount',
+        'percent',
+        'numberOfPayments',
+        'monthlyPayment',
+        'ratingValue',
+        'ratingCount',
+        'isMarketable',
+        'discontinued',
+    ],
+    properties: {
+        id: { type: 'integer', description: 'ID do produto' },
+        sku: { type: 'string', description: 'SKU do produto' },
+        name: { type: 'string', description: 'Nome do produto' },
+        brand: { type: 'object', $ref: '#/definitions/Brand', description: 'Marca do produto' },
+        inventory: { type: 'object', $ref: '#/definitions/Inventory', description: 'Inventário do produto' },
+        shortDescription: { type: 'string', description: 'Descrição curta do produto' },
+        price: { type: 'number', description: 'Preço do produto' },
+        maxPrice: { type: 'number', description: 'Preço máximo do produto' },
+        discount: { type: 'number', description: 'Desconto do produto' },
+        percent: { type: 'number', description: 'Percentual do produto' },
+        numberOfPayments: { type: 'integer', description: 'Número de pagamentos' },
+        monthlyPayment: { type: 'number', description: 'Pagamento mensal' },
+        ratingValue: { type: 'number', description: 'Valor da avaliação' },
+        ratingCount: { type: 'integer', description: 'Contagem de avaliações' },
+        isMarketable: { type: 'boolean', description: 'Disponibilidade no mercado' },
+        discontinued: { type: 'boolean', description: 'Produto descontinuado' },
+    },
+}
+
+export default productSchema;
