@@ -52,7 +52,7 @@ export const saveUser = async (req: FastifyRequest, res: FastifyReply): Promise<
     const { username, email, password } = req.body as any;
 
     // Verifique se o usuário já existe no banco de dados
-    const existingUser = await AppDataSource.getRepository(User).findOne({ where: { email } });;
+    const existingUser = await AppDataSource.getRepository(User).findOne({ where: { email } });
 
     if (existingUser) {
         return res.status(400).send({ message: "User already exists" });
