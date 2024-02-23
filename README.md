@@ -19,8 +19,8 @@ As entidades `Product`, `Brand` e `Inventory` foram inspiradas nas informações
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/tallyto/oboticrud.git
+cd oboticrud
 ```
 
 ### 2. Instalar Dependências
@@ -73,6 +73,3 @@ Você pode importar os endpoints facilmente utilizando o arquivo `oboticrud.post
 
 ## Contribuindo
 Contribuições são bem-vindas! Por favor, abra uma issue para discutir as mudanças propostas.
-
-## Observações
-Este projeto foi criado como parte de um teste seletivo para Desenvolvedor III na empresa O Boticário. As entidades `Product`, `Brand` e `Inventory` foram escolhidas com base nas informações disponíveis no site da empresa.
