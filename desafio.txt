@@ -1,0 +1,22 @@
+Contextualização
+Usando o ddl fornecido, deverá ser criada uma API Rest que permita a realização das operações
+“CRUD” em todas as entidades.
+Requisitos técnicos
+● Poderá ser utilizado o SGBD de sua preferência;
+● A API deverá ser desenvolvida em Node.js utilizando, preferencialmente, o framework
+Fastify. Como alternativa poderá ser utilizado o express ou o NestJS;
+● Deverá ser implementado um controle de segurança, à sua escolha, para acesso aos
+endpoints da API.
+Entregas
+● Código da API em repositório Git público;
+● Documentação da aplicação no Git (readme);
+● Aplicação rodando no ambiente local do candidato;
+● Swagger implementado para acesso à documentação da API;
+● Arquivo SQL contendo o DDL final e alguns “inserts” de dados de exemplo;
+● Coleção do Postman ou Insomnia, em formato JSON, para testes na API.
+O que será avaliado
+● Funcionamento da aplicação;
+● Atendimento aos requisitos técnicos;
+● Clareza do código-fonte;
+● Organização do código-fonte;
+● Boas práticas de programação
